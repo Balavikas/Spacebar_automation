@@ -58,14 +58,13 @@ done
 ```
 chmod +x auto_spacebar.sh
 
-./auto_spacebar.sh
 ```
 * Create alias for the above command
 ```
 alias space="./auto_spacebar.sh"
 ```
 
-* Now just type "space" in the terminal to run the auto_spacebar.sh and press ctrl + c to stop the script
+* Now just type ```space``` in the terminal to **RUN** the ```auto_spacebar.sh``` and press ```ctrl + c``` to **STOP** the script
 
 
 
