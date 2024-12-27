@@ -2,9 +2,9 @@
 
 Note: Only for mac
 
-Open terminal and cd desktop
+* Open terminal and cd desktop
 
-Type following commands
+* Type following commands
 
 ```
 mkdir run_spacebar
@@ -14,9 +14,10 @@ cd run_spacebar
 vi auto_spacebar.sh
 ```
 
-Press i
+* Press i
 
-COPY AND PASTE the below code
+* COPY AND PASTE the below code
+
 ```
 #!/bin/bash
 
@@ -48,23 +49,23 @@ while true; do
 done
 ```
 
-press ESC
+* press ESC
 
-:wq!
+* press ```:wq!```
 
-Type following command
+* Type following command
 
 ```
 chmod +x auto_spacebar.sh
 
 ./auto_spacebar.sh
 ```
-Create alias for the above command
+* Create alias for the above command
 ```
 alias space="./auto_spacebar.sh"
 ```
 
-Now just type "space" in the terminal to run the auto_spacebar.sh and press ctrl + c to stop the script
+* Now just type "space" in the terminal to run the auto_spacebar.sh and press ctrl + c to stop the script
 
 
 
